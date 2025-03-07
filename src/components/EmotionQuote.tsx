@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import { Quote } from 'lucide-react';
 import { useAppStore } from '../store';
-import { getEmotionQuote, getEmotionColor, getEmotionImage } from '../utils/helpers';
+import { getEmotionQuote, getEmotionColor } from '../utils/helpers';
 
 const EmotionQuote: React.FC = () => {
   const { currentEmotion } = useAppStore();
