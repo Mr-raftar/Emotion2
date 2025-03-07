@@ -3,6 +3,8 @@
   "private": true,
   "version": "0.1.1",
   "type": "module",
+  "homepage": "https://mr-raftar.github.io/Emotion2/",
+
   "scripts": {
     "dev": "vite",
     "start": "react-scripts start",
